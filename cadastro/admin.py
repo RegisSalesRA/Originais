@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from cadastrado.models import Cadastro
+from cadastro.models import Cadastro
 
 
 @admin.register(Cadastro)

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block context %}
+    <h1 style="margin-top: 50px">Cadastrado com sucesso!</h1>
+    <a href="{% url 'cadastroView' %}" class="btn btn-success">Voltar</a>
+{% endblock %}
