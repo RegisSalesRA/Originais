@@ -11,7 +11,7 @@ from cadastro.models import Cadastro
 class CadastroCreateView(CreateView):
     model = Cadastro
     template_name = 'form.html'
-    fields = ['nome', 'sobrenome', 'idade', 'email', 'visitante']
+    fields = ['nome', 'sobrenome', 'idade', 'email','instagram','visitante']
     success_url = reverse_lazy('successView')
 
 

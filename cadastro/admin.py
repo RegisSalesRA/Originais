@@ -6,4 +6,4 @@ from cadastro.models import Cadastro
 
 @admin.register(Cadastro)
 class AdminCadastro(admin.ModelAdmin):
-    fields = ['nome','sobrenome','idade','email','visitante']
+    fields = ['nome','sobrenome','idade','email','instagram','visitante']
